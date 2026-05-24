@@ -1,0 +1,16 @@
+.mybutton {
+  background-color: #FFC800;
+  color: var(--text);
+  font-family: Outfit;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 2%;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+
+.mybutton::before {
+  content: "• ";
+}

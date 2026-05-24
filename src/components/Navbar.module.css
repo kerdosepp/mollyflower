@@ -1,0 +1,76 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 27px 0px;
+  border-bottom: 1px solid #2C2825;
+  position: relative;
+}
+
+.logoFull {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-family: Caprasimo;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 92%;
+  letter-spacing: -3%;
+  color: var(--text);
+}
+
+.logoShort {
+  display: none;
+  text-decoration: none;
+  font-family: Caprasimo;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 92%;
+  letter-spacing: -3%;
+  color: var(--text);
+}
+
+.hamburger {
+  color: #2C2825;
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Outfit;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 2%;
+  color: var(--text);
+}
+
+@media (max-width: 480px) {
+  .logoFull { display: none; }
+  .logoShort { display: inline; }
+
+  .hamburger { display: block; }
+
+  .navLinks {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 100%;
+    background: white;
+  }
+
+  .navLinks.open {
+    display: flex;
+  }
+}
