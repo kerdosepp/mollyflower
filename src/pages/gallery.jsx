@@ -1,12 +1,15 @@
 import { useState } from 'react'
 import '../App.css'
 
+import SiteTitle from '../components/SiteTitle.jsx'
+import ContentContainer from '../components/ContentContainer.jsx'
+
 function App() {
 
   return (
     <>
-    <h1>GALLERY</h1>
-   
+    <SiteTitle title="GALLERY"/>
+    <ContentContainer contentName="SEASONAL ARRANGEMENTS" type ="flowershop"/>
     </>
   )
 }
