@@ -1,11 +1,9 @@
-import { useState } from "react";
 import "../App.css";
 
 import logoImg from "../assets/images/LogoImage.png";
 import specialOfferImage from "../assets/images/SpecialOffer.jpg";
 import bigImage1 from "../assets/images/BigImage1.jpg";
 
-import Button from "../components/Button.jsx";
 import BigImage from "../components/BigImage.jsx";
 import AboutUs from "../components/AboutUs.jsx";
 import SwiperShowcase from "../components/SwiperShowcase.jsx";
