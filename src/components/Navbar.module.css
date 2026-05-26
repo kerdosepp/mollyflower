@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 27px 0px;
-  border-bottom: 1px solid #2C2825;
+  border-bottom: 1px solid #2c2825;
   position: relative;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .hamburger {
-  color: #2C2825;
+  color: #2c2825;
   display: none;
   background: none;
   border: none;
@@ -55,10 +55,16 @@
 }
 
 @media (max-width: 480px) {
-  .logoFull { display: none; }
-  .logoShort { display: inline; }
+  .logoFull {
+    display: none;
+  }
+  .logoShort {
+    display: inline;
+  }
 
-  .hamburger { display: block; }
+  .hamburger {
+    display: block;
+  }
 
   .navLinks {
     display: none;

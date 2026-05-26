@@ -1,19 +1,21 @@
 @font-face {
-    font-family: 'Caprasimo';
-    src: url('src/assets/fonts/Caprasimo/Caprasimo-Regular.ttf') format('truetype');
-    font-weight: 100, 900;
+  font-family: "Caprasimo";
+  src: url("src/assets/fonts/Caprasimo/Caprasimo-Regular.ttf")
+    format("truetype");
+  font-weight: 100, 900;
 }
 
 @font-face {
-    font-family: 'Outfit';
-    src: url('src/assets/fonts/Outfit/Outfit-VariableFont_wght.ttf') format('truetype');
-    font-weight: 100, 900;
+  font-family: "Outfit";
+  src: url("src/assets/fonts/Outfit/Outfit-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100, 900;
 }
 
 :root {
-  --text: #2C2825;
-  --text-h: #2C2825;
-  --bg: #FFFFFF;
+  --text: #2c2825;
+  --text-h: #2c2825;
+  --bg: #ffffff;
   --border: #e5e4e7;
   --code-bg: #f4f3ec;
   --accent: #aa3bff;
@@ -23,8 +25,8 @@
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --sans: system-ui, "Segoe UI", Roboto, sans-serif;
+  --heading: system-ui, "Segoe UI", Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
   font: 18px/145% var(--sans);
@@ -42,8 +44,6 @@
   padding-left: 40px;
   padding-right: 40px;
 }
-
-
 
 body {
   margin: 0;
@@ -117,12 +117,10 @@ p {
   text-align: center;
 }
 
-#logoImg{
+#logoImg {
   margin: 0;
   padding-top: 68px;
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 44px;
 }
-
-

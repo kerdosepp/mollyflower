@@ -2,23 +2,23 @@
   flex: 1 1 300px;
 }
 
-.flowerName{
-    font-size: 18px;
-    font-weight: 700;
-    font-style: bold;
-    line-height: 140%;
-    margin: 0;
+.flowerName {
+  font-size: 18px;
+  font-weight: 700;
+  font-style: bold;
+  line-height: 140%;
+  margin: 0;
 }
 
-.price{
-    color: #575757; 
-    font-size: 15px;
-    font-weight: 700;
-    font-style: bold;
-    line-height: 140%;
-    letter-spacing: -2.5%;
-    text-align: center;
-    margin: 0;
+.price {
+  color: #575757;
+  font-size: 15px;
+  font-weight: 700;
+  font-style: bold;
+  line-height: 140%;
+  letter-spacing: -2.5%;
+  text-align: center;
+  margin: 0;
 }
 
 .image {
@@ -30,11 +30,11 @@
   border-radius: 30px;
 }
 
-.productInfo{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: left;
-    margin-bottom: 15px;
-    gap: 6px;
+.productInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 15px;
+  gap: 6px;
 }

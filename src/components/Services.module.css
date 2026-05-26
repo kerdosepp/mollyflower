@@ -1,7 +1,6 @@
-.wrapper{
-    border-top: 1px solid #2C2825; 
-    margin-bottom: 100px;
-
+.wrapper {
+  border-top: 1px solid #2c2825;
+  margin-bottom: 100px;
 }
 
 .img {
@@ -13,11 +12,10 @@
 }
 
 .point {
-    margin: 100px 0;
+  margin: 100px 0;
 }
 
-
-.divider{
-    border-bottom: 1px solid #2C2825;
-    margin: 0px 40px;
+.divider {
+  border-bottom: 1px solid #2c2825;
+  margin: 0px 40px;
 }

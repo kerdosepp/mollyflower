@@ -1,21 +1,21 @@
-.container{
-    display: flex;
-    flex-direction: row;
+.container {
+  display: flex;
+  flex-direction: row;
 }
 
-
-.contentName{
-    color: #575757; 
-    font-size: 14px;
-    font-weight: 700;
-    font-style: bold;
-    line-height: 140%;
-    letter-spacing: 2%;
-    text-align: left;
-    margin: 0 20px 40px 0;
+.contentName {
+  color: #575757;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: bold;
+  line-height: 140%;
+  letter-spacing: 2%;
+  text-align: left;
+  margin: 0 20px 40px 0;
 }
-
 
 @media (max-width: 900px) {
-  .container {flex-direction: column;}
+  .container {
+    flex-direction: column;
+  }
 }
