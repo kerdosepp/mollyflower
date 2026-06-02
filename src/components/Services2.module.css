@@ -1,0 +1,57 @@
+.img {
+  flex: 1 1 300px;
+  min-width: 280px;
+  max-width: 100%;
+  width: 50%;
+  height: 600px;
+  align-self: center;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.point {
+  margin: 100px 0;
+}
+
+.divider {
+  border-bottom: 1px solid #2c2825;
+  margin: 0px 40px;
+}
+
+.itemWrapper {
+    border-top: 1px solid #2c2825;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  
+}
+
+
+.serviceName{
+text-align: left;
+ font-size: 50px;
+ margin: 0;
+}
+
+.serviceDescription{
+text-align: left;
+ font-size: 16px;
+ margin-top: 24px;
+}
+
+.textInfo{
+    flex: 1 1 300px;
+    width: 40%;
+}
+
+.uList {
+  padding: 0;
+  margin: 0;
+}
+
+.servicesWrapper {
+  width: 100%;
+}

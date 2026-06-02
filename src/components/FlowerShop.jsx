@@ -2,16 +2,31 @@ import styles from "./FlowerShop.module.css";
 
 import FlowerShopItem from "../components/FlowerShopItem.jsx";
 
-export default function FlowerShop(props) {
+import imageTemplate from "../assets/images/SpecialOffer.jpg";
+
+
+
+const flowers = [
+  { flowerName: "DAWN BLOOM", price: "55", imageUrl: imageTemplate},
+  { flowerName: "DAWN BLOOM", price: "55", imageUrl: imageTemplate},
+  { flowerName: "DAWN BLOOM", price: "55", imageUrl: imageTemplate},
+  { flowerName: "DAWN BLOOM", price: "55", imageUrl: imageTemplate},
+  { flowerName: "DAWN BLOOM", price: "55", imageUrl: imageTemplate},
+  { flowerName: "DAWN BLOOM", price: "55", imageUrl: imageTemplate},
+  { flowerName: "DAWN BLOOM", price: "55", imageUrl: imageTemplate},
+];
+
+export default function FlowerShop() {
   return (
     <div className={styles.container}>
-      <FlowerShopItem />
-      <FlowerShopItem />
-      <FlowerShopItem />
-      <FlowerShopItem />
-      <FlowerShopItem />
-      <FlowerShopItem />
-      <FlowerShopItem />
+      {flowers.map((flower, index) => (
+        <FlowerShopItem
+          key={index}
+          flowerName={flower.flowerName}
+          price={flower.price}
+          imageUrl={flower.imageUrl}
+        />
+      ))}
     </div>
   );
 }
